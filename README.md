@@ -1,8 +1,10 @@
-# Security Assessment Report – itsecgames.com  
+# Security Assessment Report
 
 ##  Overview  
-This repository contains the security assessment report created as part of the **Security Officer Trainee Job Assessment**.  
+This repository contains the security assessment report 
 The task was to evaluate the security posture of a publicly hosted endpoint and document vulnerabilities, risks, and mitigation strategies.   
+
+Note: The target site was static and experienced downtime during testing. Findings are therefore based on passive reconnaissance, configuration analysis, and available service responses.
 
 ---
 
