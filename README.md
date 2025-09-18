@@ -91,7 +91,7 @@ Whatweb websiteURL
 → Identifies web technologies, server type, CMS, frameworks, etc. Useful for detecting outdated software versions.
 --
 
-subfinder -d itsecgames.com
+subfinder -d websiteURL
 
 
 → Finds subdomains that could expose hidden services or staging environments.
