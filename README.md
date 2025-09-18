@@ -61,26 +61,38 @@ The task was to evaluate the security posture of a publicly hosted endpoint and 
 ##  Sample Commands Used 
 
 nmap -sV -sC -Pn websiteURL
+
+
 → Scanned for open ports and services.Collects OS details, traceroute, service versions (useful for banner grabbing).
 --
 
 dirb websiteURL
+
+
 → Enumerates hidden directories/files like /index.htm, /js/, /admin/. 
 --
 
 wafw00f websiteURL
+
+
 → Checks if the site is protected by a WAF
 --
 
 curl -IL websiteURL
+
+
 → Looked for disallowed paths.
 → Revealed missing security headers (X-Frame-Options, CSP, etc.) and exposed server info (Server: Apache).
 --
 
 Whatweb websiteURL
+
+
 → Identifies web technologies, server type, CMS, frameworks, etc. Useful for detecting outdated software versions.
 --
 
 subfinder -d itsecgames.com
+
+
 → Finds subdomains that could expose hidden services or staging environments.
 
